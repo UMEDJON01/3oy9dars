@@ -9,11 +9,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
-.header {
-  position: fixed;
-  width: 100%;
-  background-color: white;
-}
+
+
 
 main {
   display: flex;
@@ -216,6 +213,10 @@ main {
   #check:checked ~ .bar .open {
     display: none;
   }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
 
   .header__container {
     position: relative;
@@ -248,7 +249,12 @@ main {
   .header__contact {
     display: none;
   }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
 
+  }
   .header__nav {
     width: 100vw;
   }
